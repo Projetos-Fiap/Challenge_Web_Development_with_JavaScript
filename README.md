@@ -10,7 +10,7 @@
 
 <li>André Lambert RM99148</li>  
 
-<li>Bryan Willian RM551305</li>
+<li>Bryan Willian M. RM551305</li>
 
 <li>Lucas Feijó RM99727</li>
   
