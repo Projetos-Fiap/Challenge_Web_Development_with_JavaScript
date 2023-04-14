@@ -45,6 +45,14 @@ nav a {
   color: #4f4f4f;
 }
 
+nav ul li a.ativo {
+  font-weight: bold;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
 footer {
   position: fixed;
   bottom: 0;

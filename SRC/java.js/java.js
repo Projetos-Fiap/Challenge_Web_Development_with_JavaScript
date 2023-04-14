@@ -27,3 +27,24 @@ function submitForm(event) {
   const form = document.querySelector('form');
   form.addEventListener('submit', submitForm);
   
+
+//criando negrito quando clica no elemento de navegação
+
+// Selecionar todos os elementos de navegação
+const elementosDeNavegacao = document.querySelectorAll('nav ul li a');
+
+// Adicionar um evento de clique a cada elemento de nav
+elementosDeNavegacao.forEach(elemento => {
+  elemento.addEventListener('click', function(evento) {
+    // Evite que o link seja seguido
+    evento.preventDefault();
+
+    // Remova a classe "ativo" de todos os elementos de nav
+    elementosDeNavegacao.forEach(elemento => {
+      elemento.classList.remove('ativo');
+    });
+
+    // Adiciona a classe "ativo" ao elemento de navegação que for clicado
+    this.classList.add('ativo');
+  });
+});
