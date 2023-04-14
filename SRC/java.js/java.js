@@ -12,6 +12,7 @@ function submitForm(event) {
     //para conferir se os campos de "senha" e "confirmar senha" são iguais:
     if (password === confirmPassword) {
       alert('Cadastro realizado com sucesso!');
+      console.log('cadastro concluido')
     }
     else {
       alert('Senhas não conferem. Tente novamente.');
@@ -20,7 +21,6 @@ function submitForm(event) {
     // Redireciona o usuário para a página principal após o cadastro
     window.location.replace("../index.html")
 
-     console.log('cadastro concluido')
   }
   
   //este código faz com que haja a validação do formulário do usuário apenas quando ele clicar em "enviar" ou apertar "enter"
