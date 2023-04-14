@@ -1,5 +1,3 @@
-// javascript
-
 //essa função impede que após o envio do formulário a página recarregue  
 function submitForm(event) {
     event.preventDefault();
@@ -17,6 +15,7 @@ function submitForm(event) {
     }
     else {
       alert('Senhas não conferem. Tente novamente.');
+      return;
     }
     // Redireciona o usuário para a página principal após o cadastro
     window.location.replace("../index.html")
@@ -27,3 +26,4 @@ function submitForm(event) {
   //este código faz com que haja a validação do formulário do usuário apenas quando ele clicar em "enviar" ou apertar "enter"
   const form = document.querySelector('form');
   form.addEventListener('submit', submitForm);
+  
