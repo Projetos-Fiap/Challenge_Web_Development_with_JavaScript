@@ -14,6 +14,6 @@
 
 <li>Lucas Feijó RM99727</li>
   
-<li>Vitor Gabriel Barbosa Maia RM99658</li>
+<li>Vitor Gabriel B. Maia RM99658</li>
 
 </ol>
