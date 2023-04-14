@@ -3,9 +3,9 @@ body {
   margin: 0;
   font-family: sans-serif;
   color: #363636;
-  background-image: url('/imagens/Logo-Recycle.jpg');
+  background-image: url('../imagens/Logo-Recycle.jpg');
   overflow-x: hidden;
-  background-position: center;
+  background-position: center 50px;
 }
 
 header {

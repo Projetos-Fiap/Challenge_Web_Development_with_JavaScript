@@ -4,8 +4,8 @@ body {
   font-family: sans-serif; 
   color: #363636;
   overflow-x: hidden;
-  background-image: url('/imagens/Logo-Recycle.jpg');
-  background-position: center;
+  background-image: url('../imagens/Logo-Recycle.jpg');
+  background-position: center 50px;
 }
 
 header {
