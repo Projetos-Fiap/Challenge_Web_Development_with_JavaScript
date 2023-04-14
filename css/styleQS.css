@@ -5,7 +5,6 @@ body {
   color: #363636;
   background-image: url('/imagens/Logo-Recycle.jpg');
   background-position: center;
-  overflow-x: hidden;
 }
 
 header {
@@ -63,7 +62,8 @@ nav a {
 }
 
 footer {
-  margin-top: 100px;
+  position: fixed;
+  bottom: 0;
   width: 100vw;
   height: 60px;
   text-align: center;
@@ -101,4 +101,24 @@ footer > p {
 .bryanWillian img {
   width: 200px;
   height: 200px;
+}
+
+.cadastro-container {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  margin: 0;
+}
+
+.cadastro-btn {
+  display: inline-block;
+  padding: 1px 2px;
+  background-color: #4CAF50;
+  color: white;
+  text-align: center;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
 }

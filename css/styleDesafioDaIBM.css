@@ -75,3 +75,23 @@ footer > p {
     height: 120px;
     padding-top: 40px;
   }
+
+  .cadastro-container {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    margin: 0;
+  }
+  
+  .cadastro-btn {
+    display: inline-block;
+    padding: 2px 1px;
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+}
